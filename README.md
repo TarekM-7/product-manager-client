@@ -2,7 +2,7 @@
 
 A product manager built with **React 19** and **TypeScript**. You list, create, edit and delete products, and toggle whether each one is available, all against a REST API. Data loading and form submissions go through **React Router's data APIs**, requests are sent with **Axios**, and every response is validated with **Valibot**.
 
-This is **Project 10** of the Udemy course [React de Principiante a Experto](https://www.udemy.com/course/react-de-principiante-a-experto-creando-mas-de-10-aplicaciones/). It is the frontend of a full-stack app whose Node.js API lives in [its own repository](https://github.com/TarekM-7/fullstack-project-node-react-typescript-server). The goal of this project is to connect a React client to a real backend, move data loading and mutations into the router, validate data at runtime, and deploy both halves.
+This is **Project 10** of the Udemy course [React de Principiante a Experto](https://www.udemy.com/course/react-de-principiante-a-experto-creando-mas-de-10-aplicaciones/). It is the frontend of a full-stack app whose Node.js API lives in [its own repository](https://github.com/TarekM-7/product-manager-server). The goal of this project is to connect a React client to a real backend, move data loading and mutations into the router, validate data at runtime, and deploy both halves.
 
 ![The Productos page under a dark "Administrador de Productos" header: a table of four products with their name and price, an availability button marked Disponible, or No Disponible in red for the keyboard, and blue Editar and red Eliminar buttons on each row, with an "Agregar Producto" button above the table](docs/screenshot.png)
 
@@ -101,12 +101,12 @@ vercel.json                   # Sends every route to index.html on Vercel
 
 ## Getting Started
 
-Requirements: [Node.js](https://nodejs.org/) 20 or later and the [API](https://github.com/TarekM-7/fullstack-project-node-react-typescript-server) running, locally or deployed.
+Requirements: [Node.js](https://nodejs.org/) 20 or later and the [API](https://github.com/TarekM-7/product-manager-server) running, locally or deployed.
 
 ```bash
 # Clone the repository
-git clone https://github.com/TarekM-7/fullstack-project-node-react-typescript-client.git
-cd fullstack-project-node-react-typescript-client
+git clone https://github.com/TarekM-7/product-manager-client.git
+cd product-manager-client
 
 # Install dependencies
 npm install
