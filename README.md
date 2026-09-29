@@ -4,6 +4,8 @@ A product manager built with **React 19** and **TypeScript**. You list, create, 
 
 This is **Project 10** of the Udemy course [React de Principiante a Experto](https://www.udemy.com/course/react-de-principiante-a-experto-creando-mas-de-10-aplicaciones/). It is the frontend of a full-stack app whose Node.js API lives in [its own repository](https://github.com/TarekM-7/fullstack-project-node-react-typescript-server). The goal of this project is to connect a React client to a real backend, move data loading and mutations into the router, validate data at runtime, and deploy both halves.
 
+![The Productos page under a dark "Administrador de Productos" header: a table of four products with their name and price, an availability button marked Disponible, or No Disponible in red for the keyboard, and blue Editar and red Eliminar buttons on each row, with an "Agregar Producto" button above the table](docs/screenshot.png)
+
 **Live demo:** [the app on Vercel](https://fullstack-project-node-react-typesc.vercel.app/) · [the API docs on Render](https://fullstack-project-node-react-typescript.onrender.com/docs/)
 
 > **Hosting:** the React client runs on [Vercel](https://vercel.com/), and the API with its PostgreSQL database on [Render](https://render.com/), all on free plans. A free service can go to sleep when nobody is using it, so the product list may take a while to show up the first time, and the live demo may stop working at some point.
